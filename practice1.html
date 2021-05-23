@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+        .card{
+            margin-top: 10%;
+            margin-left: 12.5%;
+            float: left;
+            flex=40%;
+            width: 425px;
+            height: 500px;
+            background-image: radial-gradient(#D1D6F6 5%,#162796 15%, #14216F 70%);
+            border: 2px solid #0C1B7E;
+            border-radius:10px;
+            transition: 1s;
+            box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.3);
+        }
+        .card:hover{
+          background-color: #0C1B7E;
+        }
+        .card:hover .imgcard{
+
+          opacity: 0.85;
+
+        }
+        .card1{
+            margin-top: 10%;
+            margin-left: 15%;
+            margin-right: 10%;
+            float: left;
+            flex=40%;
+            width: 425px;
+            height: 500px;
+            background-image: radial-gradient(#D1D6F6 5%,#162796 15%, #14216F 70%);
+            border: 2px solid #0C1B7E;
+            border-radius:10px;
+            transition: 1s;
+            box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.3);
+        }
+        .card1:hover{
+          background-color: #0C1B7E;
+        }
+        .card1:hover .imgcard{
+
+          opacity: 0.85;
+
+        }
+        .container{
+          display: flex;
+
+        }
+        body{
+          background-color: #081560;
+        }
+        .imgcard{
+          display: block;
+          width: 80%;
+          height:80%;
+          margin-top: 35px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img class="imgcard" src="realmadrid.png" alt="Avatar">
+      </div>
+      <div class="card1">
+        <img class="imgcard" src="Barcelona.png" alt="Avatar">
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img class="imgcard" src="Bayern.png" alt="Avatar">
+      </div>
+      <div class="card1">
+        <img class="imgcard" src="dortmund.png" alt="Avatar">
+      </div>
+    </div>
+  </body>
+</html>
